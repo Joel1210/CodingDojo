@@ -1,0 +1,64 @@
+/*CSS reset settings here*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  color: cyan;
+}
+li {
+  color: white;
+}
+#wrapper{
+  width: 970px;
+  padding-top:25px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  background-color: #405d83;
+  margin: 0px auto; /* centers stuff */
+}
+#header, #navigation, #main_content, #footer{
+  /*position: relative;*/
+  border-radius: 10px;
+}
+#header{
+  height: 50px;
+  padding-top: 15px;
+  padding-left: 15px;
+  background-color: red;
+}
+#navigation, #main_content{
+  display: inline-block;
+  margin-top: 20px;
+}
+#navigation{
+  height: 250px;
+  width: 200px;
+  position: absolute;
+  padding-left: 10px;
+  background-color: rgb(37, 146, 146);
+}
+#main_content{
+  max-width: 720px;
+  padding-left: 20px;
+  margin-left: 230px;
+  word-wrap: normal; 
+  background-color: black;
+}
+#info{
+  margin-left: 10px;
+}
+#footer{
+  height: 30px;
+  margin-top: 25px;
+  padding-top: 15px;
+  padding-left: 15px;
+  background-color: grey;
+}
+.sublist{
+  margin-left: 20px;
+}
+.subsublist{
+  margin-left: 20px;
+}

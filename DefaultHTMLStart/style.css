@@ -1,0 +1,8 @@
+/*CSS reset settings here*/
+*{
+    margin:0px auto;
+    padding: 0px;
+}
+.wrapper{
+    width: 970px;
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Registration Form</title>
+    </head>
+    <body>
+        <form>
+        <label for "First Name: </label>
+        <input type="text" id="first_name" name="first_name">
+        < 
+        </form>
+    </body>
+</html>

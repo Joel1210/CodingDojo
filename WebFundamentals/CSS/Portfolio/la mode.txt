@@ -1,0 +1,1 @@
+La Mode is an Ecommerce website for designed to market various clothing products.  Users are able to view the available garments, select their desired quantity, and compile a shopping cartfor making a final purchase.

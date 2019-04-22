@@ -1,0 +1,212 @@
+/*CSS reset settings here*/
+*{
+  margin: 0px auto;
+  padding: 0px;
+}
+.wrapper{
+  width: 970px;
+  vertical-align: top;
+  background-color: black;
+}
+.header{
+  width: 970px;
+  height: 145px;
+  background-color: #245076;
+  vertical-align: top;
+}
+.header img{
+  width: 375px;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+.header p{
+  margin-top: 10px;
+  margin-left: 130px;
+  color: white;
+}
+.header a{
+  color: #d5b300;
+}
+.header-right{
+  height: 115px;
+  width: 350px;
+  margin-left: 221px;
+  display: inline-block;
+  vertical-align: top;
+}
+.search{
+  height: 75px;
+  width: 320px;
+  background-color: #444444;
+  margin-top: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #262626;
+}
+.search input{
+  height: 40px;
+  width: 200px;
+  margin-top: 18px;
+  text-align: center;
+  margin-left: 40px;
+  display: inline-block;
+  color: #c6c6c6;
+}
+.search button{
+  height: 40px;
+  width: 50px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #245076;
+  color: white;
+}
+.navigation{
+  width: 970px;
+  height: 70px;
+  background-color: #245076;
+  vertical-align: top;
+}
+.navbar{
+  height: 50px;
+  width: 800px;
+  border-radius: 5px;
+  margin-left: 120px;
+  text-align: center;
+  background-color: #3b78ad;
+  vertical-align: auto;
+}
+.navbar a{
+  height: 50px;
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  vertical-align: auto;
+  line-height: 50px;
+}
+.linkinfo{
+  height: 300px;
+  width: 970px;
+  background-color: #245076;
+}
+.links{
+  height: 300px;
+  width: 200px;
+  margin-left: 121px;
+  text-align: center;
+  display: inline-block;
+  background-color: #245076;
+}
+.info{
+  height: 300px;
+  width: 570px;
+  background-color: #245076;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  text-align: center;
+}
+.links a{
+  color: white;
+}
+.links ul {
+  list-style: none;
+}
+.links li {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 200;
+  text-align: center;
+}
+.links li:before {
+  content: ">>";
+  padding-right: 10px;
+  color: yellow;
+  font-weight: 900;
+  font-size: 8px;
+  vertical-align: center;
+}
+.info h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 100;
+  color: yellow;
+}
+.info h4{
+  font-weight: 100;
+  color: white;
+}
+.startapps{
+  height: 245px;
+  width: 970px;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+.gettingstarted{
+  width: 450px;
+  height: 228px;
+  margin-top: 10px;
+  border-top: 5px solid #73a7d5;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.startapps h3{
+  margin-right: 100px;
+  margin-left: 30px;
+}
+.startapps h5{
+  display: inline;
+  color: #6096c5;
+}
+.startapps p{
+  margin-left: 30px;
+  display: inline;
+}
+.startapps li{
+  margin-right: 90px;
+  margin-left: 75px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  list-style-type: square;
+  color: #6096c5;
+}
+.applications{
+  width: 450px;
+  height: 228px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-top: 5px solid #73a7d5;
+  display: inline-block;
+}
+.txtbox{
+  margin-right: 40px;
+  margin-left: 20px;
+}
+.footer{
+  padding-top: 50px;
+  height: 50px;
+  background-image: linear-gradient(#245178, #3373aa);
+  text-align: center;
+}
+.footer a{
+  display: inline;
+  text-decoration: none;
+  color: #75a8d6;
+  font-weight: 100;
+}
+.footer h3{
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.footer h6{
+  margin-top: 10px;
+  color: #75a8d6;
+}

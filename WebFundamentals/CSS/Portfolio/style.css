@@ -1,0 +1,122 @@
+/*CSS reset settings here*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.center{
+  text-align: center;
+  vertical-align: -webkit-baseline-middle;
+}
+.txtsize{
+  width: 13px;
+}
+.techsize{
+  width: 35px;
+}
+.boxpicsize{
+  align-content: center;
+  width: 284px;
+}
+
+/* tags */
+a {
+  color: black;
+}
+p {
+  word-wrap: normal;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.titlebar{
+  background: grey;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+}
+
+/* parent */
+.mainspace{
+  width: 970px;
+  margin: 0px auto; /* centers stuff */
+}
+
+/* header / maincontent / footer */
+.header{
+  height: 50px;
+  width: 970px;
+  background-color: lightgrey;
+  position: relative;
+  display: inline-block;
+}
+.maincontent{
+  width: 970px;
+  padding-top: 10px;
+  position: relative;
+  background-image: linear-gradient(to right, black, blue, black);
+  display: inline-block;
+}
+.footer{
+  background-color: white;
+  height: 50px;
+}
+
+/* inside #header */
+.name{
+  margin-left: 31px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: inline-block;
+}
+.title{
+  text-align: start;
+  margin-left: 389px;
+  display: inline-block;
+}
+
+/* inside #maincontent */
+.toprow{
+  margin-left: 15px;
+  width: 934px;
+  height: 200px;
+  display: inline-block;
+}
+.bottomrow{
+  padding-top: 10px;
+  width: 934px;
+  display: inline-block;
+}
+
+/* inside toprow */
+.photo{
+  width: 400px;
+  border: 5px solid red;
+  display: inline-block;
+}
+.about{
+  position: absolute;
+  width: 485px;
+  height: 268px;
+  margin-left: 26px;
+  background-color: white;
+  display: inline-block;
+}
+
+/* inside bottomrow */
+
+.box1{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 285px;
+  display: inline-block;
+  background-color: white;
+  margin-left: 18px;
+  margin-right: 8px;
+}
+.box2{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 285px;
+  display: inline-block;
+  background-color: white;
+  margin-left: 18px;
+}
+

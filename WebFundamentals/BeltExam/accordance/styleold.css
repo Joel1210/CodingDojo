@@ -1,0 +1,78 @@
+/*CSS reset settings here*/
+*{
+    margin:0px auto;
+    padding: 0px;
+}
+.wrapper{
+    width: 970px;
+}
+.navbar{
+    width: 970px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+.navleft{
+    height: 70px;
+    vertical-align: top;
+    display: inline-block;
+}
+.navleft img{
+    width: 85px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.navleft ul{
+    list-style: none;
+    display: inline;
+    vertical-align: top;
+}
+.navleft li{
+    border-radius: 3px;
+    padding: 25px;
+    margin: -4px;
+    border: 1px solid #d1d1d1;
+    line-height: 70px;
+    text-align: center;
+    display: inline;
+    background-color: #f8f8f8;
+}
+.navleft h3{
+    display: inline;
+    text-decoration: none;
+    font-weight: 100;
+}
+.navleft a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.navright{
+    height: 70px;
+    border-radius: 3px;
+    padding: 25px;
+    background-color: #f8f8f8;
+    border: 1px solid #d1d1d1;
+    vertical-align: top;
+}
+.navright form{
+    text-decoration: none; 
+    display: inline; 
+}
+.navright input{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 30px;
+    width: 165px;
+    text-decoration: none;
+}
+.navright img{
+    width: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.navright button{
+    border: none;
+    margin: -5px;
+}

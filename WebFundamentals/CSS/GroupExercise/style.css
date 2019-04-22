@@ -1,0 +1,81 @@
+/*CSS reset settings here*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+div {
+  display: inline-block;
+  margin-top: 7px;
+}
+#greybox{
+  width: 500px;
+  height: 565px;
+  background-color: grey;
+  margin-left: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 5px solid #000000;
+}
+.redbox1{
+  width: 225px;
+  height: 100px;
+  background-color: red;
+  margin-right: 25px;
+  border: 5px solid #000000;
+}
+.redbox2{
+  width: 225px;
+  height: 100px;
+  background-color: red;
+  border: 5px solid #000000;
+}
+.bluebox{
+  width: 490px;
+  height: 100px;
+  background-color: blue;
+  border: 5px solid #000000;
+}
+.yellowbox1{
+  width: 137px;
+  height: 100px;
+  background-color: yellow;
+  margin-right: 25px;
+  border: 5px solid #000000;
+}
+.yellowbox2{
+  width: 137px;
+  height: 100px;
+  background-color: yellow;
+  margin-right: 25px;
+  border: 5px solid #000000;
+}
+.yellowbox3{
+  width: 137px;
+  height: 100px;
+  background-color: yellow;
+  border: 5px solid #000000;
+}
+.greenbox{
+  width: 490px;
+  height: 150px;
+  background-color: green;
+  border: 5px solid #000000;
+}
+.purplebox1{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  margin-right: 225px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: 5px solid #000000;
+}
+.purplebox2{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  margin-top: 20px;
+  border: 5px solid #000000;
+}

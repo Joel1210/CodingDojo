@@ -1,0 +1,73 @@
+/*CSS reset settings here*/
+*{
+    margin:0px auto;
+    padding: 0px;
+}
+.wrapper{
+    width: 970px;
+    vertical-align: top;
+}
+.top{
+    width: 970px;
+    vertical-align: top;
+    display: inline-block;
+}
+.globe{
+    width: 90px;
+    display: inline-block;
+    margin-bottom: -30px;
+}
+.top h1{
+    display: inline;
+    text-decoration: none;
+    
+}
+.internet-a{
+    color: black;
+    display: inline;
+}
+.internet-b{
+    color: blue;
+    display: inline;
+    margin-right: -5px;
+}
+.bar{
+    height: 60px;
+    width: 970px;
+    padding-right: 20px;
+    background-color: blue;
+    color: white;
+    vertical-align: top;
+    line-height: 60px;
+    text-align: left;
+    font-weight: 100;
+}
+.body{
+    height: 300px;
+    width: 970px;
+    vertical-align: top;
+    background-image: -webkit-gradient(to bottom, grey, white);
+}
+.leftside{
+    height: 300px;
+    width: 300px;
+    vertical-align: top;
+    word-wrap: normal;
+}
+.blacktitle{
+    margin-top: 20px;
+    font-weight: 900;
+    color: black;
+    display: inline-block;
+}
+.redtitle{
+    color: red;
+    font-weight: 900;
+    display: inline;
+}
+.bluetitle{
+    color: blue;
+    font-weight: 900;
+    display: inline;
+}
+

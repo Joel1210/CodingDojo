@@ -5,7 +5,6 @@
 }
 .wrapper{
     width: 970px;
-    vertical-align: top;
 }
 .top{
     width: 970px;
@@ -20,7 +19,6 @@
 .top h1{
     display: inline;
     text-decoration: none;
-    
 }
 .internet-a{
     color: black;
@@ -29,45 +27,122 @@
 .internet-b{
     color: blue;
     display: inline;
-    margin-right: -5px;
 }
 .bar{
     height: 60px;
-    width: 970px;
-    padding-right: 20px;
+    width: 950px;
     background-color: blue;
     color: white;
-    vertical-align: top;
+    padding-left: 20px;
     line-height: 60px;
-    text-align: left;
     font-weight: 100;
 }
 .body{
-    height: 300px;
     width: 970px;
-    vertical-align: top;
-    background-image: -webkit-gradient(to bottom, grey, white);
+    background-image: linear-gradient(to bottom, grey, white);
 }
 .leftside{
+    padding-top: 10px;
+    padding-left: 5px;
     height: 300px;
-    width: 300px;
-    vertical-align: top;
+    width: 175px;
+    float: left;
+}
+.leftside h5{
+    font-weight: 900;
+    display:inline;
     word-wrap: normal;
 }
 .blacktitle{
-    margin-top: 20px;
-    font-weight: 900;
     color: black;
-    display: inline-block;
 }
 .redtitle{
     color: red;
-    font-weight: 900;
-    display: inline;
 }
 .bluetitle{
     color: blue;
-    font-weight: 900;
+}
+.leftside .watchavideo{
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 175px;
+    background-color: blue;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+.leftside .resources{
+    border-radius: 5px;
+    width: 175px;
+    background-color: orangered;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 5px;
+}
+.leftside hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ad{
+    width: 175px;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url("images/ad_background.png");
+}
+.ad_background{
+    width: 175px;
+    display: inline-block;
+}
+.ad h2{
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+.ad img{
+    width: 75px;
+    margin-left: 50px;
+}
+.ad h3{
+    color: white;
+    font-weight: 100;
+    text-align: center;
+    display: inline-block;
+    width: 175px;
+    background-color: cyan;   
+}
+.rightside{
+    margin-top: 5px;
+    height: 300px;
+    float: right;
+    width: 755px;
+}
+.home{
+    width: 15px;
+    display: inline-block;
+}
+.rightside h4{
+    display: inline;
+    color: blue;
+    font-weight: 100;
+}
+.contactinfo{
+    width: 200px;
+    float: right;
+}
+.contactinfo img{
+    display: inline-block;
+    width: 35px;
+}
+.contactinfo h6{
     display: inline;
 }
-
+.contactinfo h3{
+    display: inline;
+}
+.rightside hr{
+    margin-top: 75px;
+}
+.rightside h3{
+    color: blue;
+}

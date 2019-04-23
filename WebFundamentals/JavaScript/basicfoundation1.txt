@@ -37,4 +37,86 @@
 	return x;
 }
 
-6. function a(xaa
+6. function a(arr){
+	sum=0;
+	for(i=0; i<arr.length; i++){
+		sum=arr[i]+sum;
+	}
+	sum=sum/arr.length;
+	return sum;
+}
+
+7. function a(arr){
+	arr2=[];
+	for (i=1; i<arr.length; i+2){
+		arr2.push[i]);
+	}
+	return arr2[];
+}
+8. function a(arr,y){
+	arr2=[]
+	arrcount=0;
+	for i(i=0; i<arr.length; i++){
+		if(arr[i]>y) {
+			arr2[arrcount]=arr[i];
+			arrcount++;
+		}
+	}
+	return arr;
+}
+
+9. function a(arr){
+	for i(i=0; i<arr.length; i++){
+		arr[i]=arr[i]*2;
+	}
+	return arr;
+}
+
+10. function a(arr){
+	arr2=[];
+	arrcount=0;
+	for i(i=0; i<arr.length; i++){
+		if(arr[i]<0){
+			arr2[arrcount]=arr.[i];
+			arrcount++;
+			arr[i]=0;
+		}
+	}
+	return arr2[];
+}
+
+11. function a(arr){
+	arr2=[];
+	for i(i=0; i<arr.length; i++){
+		/* max */
+		if(arr[i]>arr2[0]){
+			arr2[0]=arr[i];
+		}
+		/* min */
+		if(arr[i]<arr2[1]){
+			arr2[1]=arr[i];
+		}
+		/* avg */
+		arr[2]=arr[2]+arr[i];
+	}
+	arr[2]=arr[2]/arr.length;
+	return arr[];
+}
+
+12.function a(arr){
+	swap1=arr[0];
+	swap2=arr[arr.lenth-1];
+	arr[0]=swap1;
+	arr[arr.lenth-1]=swap2;
+	return arr[];
+}
+
+13. function a(arr){
+	for i(i=0; i<arr.length; i++){
+		if(arr[i]<0){
+			arr[i]="Dojo";
+		}
+	}
+	return arr[];
+}
+	

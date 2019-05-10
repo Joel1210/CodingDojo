@@ -1,0 +1,32 @@
+h1{
+    border: 1px 1px solid;
+}
+p{
+    border: 1px 1px solid;
+}
+h3{
+    width: 200px;
+    height: 150px;
+    margin: 10px 10px 10px 10px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 481px){
+    .tablet:after{
+        content: 'Tablet: Width between 481px and 1023px';
+    };
+};
+
+@media only screen and (max-width: 480px){
+    .phone:after{
+        content: 'Phone: Width is less than or equal to 480px';
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .desktop:after{
+        content: 'Desktop: Width greater than or equal to 1024px';
+    }
+}
+

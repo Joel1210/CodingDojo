@@ -1,0 +1,32 @@
+1.
+checkarr(arr){
+	for(i=0;i<arr.length;i++){
+		if(arr[i]<0){
+			arr[i]=0;
+		}
+	}
+	console.log(arr);
+}
+2.
+moveForward(arr){
+	for(i=0;i<arr.length;i++){
+		arr[i]=arr[i+1};
+	}
+	arr[arr.length-1]=0;
+	return(arr);
+}
+3.
+returnReversed(arr){
+	var newarr="";
+	for(i=arr.length;i>0;i--){
+		newarr[arr.length-i]=arr[i];
+	};
+};
+4.
+doublearr(arr){
+	var newarr="";
+	for(i=0;i<arr.length;i++){
+		newarr[i]=arr[i];
+		newarr[i+1=arr[i];
+	}
+}

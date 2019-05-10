@@ -1,0 +1,26 @@
+/*CSS reset settings here*/
+*{
+    margin:0px auto;
+    padding: 0px;
+}
+.wrapper{
+    width: 970px;
+}
+.ninja{
+    width: 150px;
+    height: 190px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.placeholder{
+    width: 154px;
+    height: 194px;
+    margin-left: 11px;
+    margin-right: 11px;
+    border-radius: 5px;
+    background-color: white;
+    display: inline-block;    
+}

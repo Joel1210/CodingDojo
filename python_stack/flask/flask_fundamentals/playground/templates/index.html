@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Playground</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 style="text-align: center;">Welcome!</h1>
+        {% for x in range(1,numtimes+1): %}
+        <h3 style="color: red; background-color: {{ bkcolor }}; height: 200px; width: 100px; display: inline-block; text-align: center; line-height: 200px; margin: 10px 10px 10px 10px;">{{ x }}</h3>
+        {% endfor %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <title>Jquery Notes</title>
+    <link rel= "stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function(){
+            $('#click').click(function(){
+                alert("You clicked me, stop!");
+            });
+            $("#hide").click(function(){
+                $("#hstext").hide();
+            });
+            $("#show").click(function(){
+                $("#hstext").show();
+            });
+            $("#toggle").click(function(){
+                $("#hstext").toggle();
+            });
+            $("#sdtext").click(function(){
+                $("#sudtext").slideDown();
+            });
+            $("#sutext").click(function(){
+                $("#sudtext").slideUp();
+            });
+            $("#sudtoggle").click(function(){
+                $("#sudtext").slideToggle();
+            });
+            $("#fadein").click(function(){
+                $("#fadetext").fadeIn();
+            });
+            $("#fadeout").click(function(){
+                $("#fadetext").fadeOut();
+            });
+            $("#addclass").click(function(){
+                $("#classtext").addClass("blue");
+            });
+            $("#before").click(function(){
+                $("#batext").insertBefore("b");
+            });
+            $("#after").click(function(){
+                $("#batext").insertAfter("b");
+            });
+            $("#append").click(function(){
+                $("#pappend").append("<b>Some bold text</b>");
+            });
+            $("#html").click(function(){
+                $("#texthtml").html("Hello <b>Some bold text</b>");
+            });
+            $("#html").click(function(){
+                $("#texthtml").attr("Hello <b>Some bold text</b>");
+            });
+            $("#attr").click(function(){
+                $("img").attr("width","250");
+            });
+            $("#val").click(function(){
+                $("input").val("grATS M8");
+            });
+            $("#btn").click(function(){
+                $("p").text("Hello World!");
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>.click</h1>
+      <button id="click">Click Me</button>
+    <h1>.hide / .show</h1>
+     <button id="hide">hide</button> <button id="show">show</button> <button id="toggle">toggle</button>
+      <p id="hstext">Now you see me now ya don't</p>
+      <h1>.Slide Down / Up / Toggle</h1>
+      <button id="sdtext">Slide Down</button> <button id="sutext">Slide Up</button> <button id="sudtoggle">Slide Toggle</button>
+      <p id="sudtext">Slide up and down text weeeeeeeeeee</p>
+      <h1>.Fade In / Out</h1>
+      <button id="fadein">Fade In</button> <button id="fadeout">Fade Out</button>
+      <p id="fadetext">I'm so faded bro</p>
+      <h1>.Add Class</h1>
+       <button id="addclass">Add Class Red</button>
+       <p id="classtext">Some cool text</p>
+       <h1>.Before / .After</h1>
+       <button id="before">Before</button> <button id="after">After</button> <br>
+       <p id="batext">Regular text that we did before</p><b>Hello</b>
+       <h1>.Append</h1>
+       <button id="append">Append</button>
+       <p id="pappend">append me boi</p>
+       <h1>.HTML</h1>
+       <button id="html">HTML</button>
+       <p id="texthtml">some more text to fill in space</p>
+       <h1>Attr</h1>
+       <button id="attr">.attr</button>
+       <img src="ninja.png" width="100">
+       <h1>Val</h1>
+       <button id="val">Val</button>
+       <input type="text" value="textbox"> 
+       <h1>.text</h1>
+       <button id="btn">Hello World</button>
+       <p></p>
+
+</body>

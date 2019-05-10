@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JQuery Assignment 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('button').click(function(){
+                location.reload();
+            });
+            $('#ninja1').click(function(){
+                $('#ninja1').hide();
+                $('<div class="placeholder" id="repninja1"></div>').insertBefore('#ninja2');
+            });
+            $('#ninja2').click(function(){
+                $('#ninja2').hide();
+                $('<div class="placeholder" id="repninja2"></div>').insertBefore('#ninja3');
+            });
+            $('#ninja3').click(function(){
+                $('#ninja3').hide();
+                $('<div class="placeholder" id="repninja3"></div>').insertAfter('#ninja2');
+            });
+            $('#ninja4').click(function(){
+                $('#ninja4').hide();
+                $('<div class="placeholder" id="repninja4"></div>').insertBefore('#ninja5');
+            });
+            $('#ninja5').click(function(){
+                $('#ninja5').hide();
+                $('<div class="placeholder" id="repninja5"></div>').insertBefore('#ninja6');
+            });
+            $('#ninja6').click(function(){
+                $('#ninja6').hide();
+                $('<div class="placeholder" id="repninja6"></div>').insertAfter('#ninja5');
+            });
+        });
+    </script>
+</head>
+<body>
+	<div class="wrapper">
+        <h1>JQuery Assignment 1</h1>
+        <br>
+        <img src="images/ninja.png" alt="ninja" class="ninja" id='ninja1'>
+        <img src="images/ninja.png" alt="ninja" class="ninja" id='ninja2'>
+        <img src="images/ninja.png" alt="ninja" class="ninja" id='ninja3'>
+        <br>
+        <img src="images/ninja.png" alt="ninja" class="ninja" id='ninja4'>
+        <img src="images/ninja.png" alt="ninja" class="ninja" id='ninja5'>
+        <img src="images/ninja.png" alt="ninja" class="ninja" id='ninja6'>
+        <br>
+        <button>Reload</button>
+    </div>
+</body>
+</html>

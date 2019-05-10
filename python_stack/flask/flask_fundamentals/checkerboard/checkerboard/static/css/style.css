@@ -1,0 +1,11 @@
+body {
+    vertical-align: top;
+    display: inline-block;
+}
+.row{
+    display: inline-block;
+    vertical-align: top;
+}
+.box1{
+    display: inline-block;
+}

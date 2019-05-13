@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Dojo Survey</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h1 style="text-align: center;">Dojo Survey Index</h1>
+            <form action='/result' method='post'>
+                Name: <input type='text' name='name'><br>
+                Dojo Location: <select name="loc">
+                    <option value="Seattle">Seattle</option>
+                    <option value="Boise">Boise</option>
+                    <option value="Los Angeles">Los Angeles</option>
+                    <option value="Orange County">Orange County</option>
+                </select><br>
+                Favorite Language: <select name="language">
+                    <option value="Python">Python</option>
+                    <option value="CSS">CSS</option>
+                    <option value="HTML">HTML</option>
+                    <option value="C++">C++</option>
+                </select><br>
+                Comment (Optional): <textarea name="comment" rows="10" cols="30"></textarea>
+                <input type='submit' value='button'><br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

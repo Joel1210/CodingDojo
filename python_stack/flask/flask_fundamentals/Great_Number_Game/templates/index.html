@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Great Number Game</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div id="wrapper" style="background-color: {{ color }}">
+        <div class="container">
+            <h1 class="text-center">Welcome to the Great Number Game!</h1>
+            <h3 class="text-center">I am thinking of a number between 1 and 100</h3>
+            <h3 class="text-center">Take a guess!</h3>
+            <form action="/results" method="post">
+                <div class="mb-3">
+                    <label for="number">Number:</label>
+                    <input type="text" class="form-control" name="number" placeholder="Type a good number here!" value=""><br>
+                    <button type="submit" class="btn btn-primary">Go!</button>
+                    <a href="/reset" class="btn btn-danger">Reset</a>
+                </div>
+            </form>
+            <div class="container">
+                <h1>{{ results }}</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

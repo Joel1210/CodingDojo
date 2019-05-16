@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="form-group">
+    <div class="container mt-4">
+            <table class="table table-bordered">
+                <tr>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>E-Mail</th>
+                    <th>Created At</th>
+                    <th>Updated At</th>
+                    <th>Actions</th>
+                </tr>
+               {% for user in users %}
+                <tr>
+                    <td>{{ user['user_id'] }}</td>
+                    <td>{{ user['first_name'] }} {{ user['last_name'] }}</td>
+                    <td>{{ user['email'] }}</td>
+                    <td>{{ user['created_at'] }}</td>
+                    <td>{{ user['updated_at'] }}</td>
+                    <td>
+                        <a href="/users/{{ user['user_id'] }}/user">Show</a> |
+                        <a href="/users/{{ user['user_id'] }}/edit">Edit</a> |
+                        <a href="/users/{{ user['user_id'] }}/delete">Delete</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    <a class="btn btn-primary btn-lg mt-3" href="/users/new">Add a New User</a>
+</div>
+{% endblock %}

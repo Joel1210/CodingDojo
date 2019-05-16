@@ -1,0 +1,26 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+<div class="form-group">
+    <table class="table table-bordered">
+        <tr>
+            <td><h3>Full Name:</h3></td>
+            <td><h3>{{ first_name }} {{ last_name }}</h3></td>
+        </tr>
+        <tr>
+        <td><h3>E-Mail:</h3></td>
+           <td><h3>{{ email }}</h3></td>
+        </tr>
+        <tr>
+            <td><h3>Created On:</h3></td>
+            <td><h3>{{ created_at }}</h3></td>
+        </tr>
+        <tr>
+            <td><h3>Last Updated:</h3></td>
+            <td><h3>{{ updated_at }}</h3></td>
+        </tr>
+    </table>
+    <a href="/users/{{ user_id }}/edit" class="btn btn-primary btn-lg mt-3">Edit</a>
+    <a href="/users/{{ user_id }}/delete" class="btn btn-primary btn-lg mt-3">Delete</a>
+</div>
+{% endblock %}

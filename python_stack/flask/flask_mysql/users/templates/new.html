@@ -1,0 +1,15 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+<div class="form-group">
+    <form action="/users/getid" method="POST">
+        <label for="first_name">First Name:</label>
+        <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Enter first name">
+        <label for="last_name">Last Name:</label>
+        <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Enter last name">
+        <label for="email">Email address:</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+        <input class="btn btn-primary btn-lg mt-3" type="submit" value="Add User" />
+    </form>
+</div>
+{% endblock %}

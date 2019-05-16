@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Create</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper">
+        <a class="btn btn-primary btn-lg mt-3" style="float: right;" href="/users/new">Home</a>
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Add A New User</h1>
+            <hr class="my-4">
+            <div class="form-group">
+                <form action="/users/getid" method="post">
+                    <label for="First_Name">First Name:</label>
+                    <input type="text" class="form-control" id="First_Name" aria-describedby="First_Name_Help" placeholder="Enter first name">
+                    <label for="Last_Name">Last Name:</label>
+                    <input type="text" class="form-control" id="Last_Name" aria-describedby="Last_Name_Help" placeholder="Enter last name">
+                    <label for="E-Mail">Email address</label>
+                    <input type="email" class="form-control" id="E-Mail" aria-describedby="Email_Help" placeholder="Enter email">
+                    <input class="btn btn-primary btn-lg mt-3" type="submit" value="Submit" />
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

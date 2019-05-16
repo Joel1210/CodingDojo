@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>User</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrapper">
+        <a class="btn btn-primary btn-lg mt-3" style="float: right;" href="/users/new">Home</a>
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Add A New User</h1>
+            <hr class="my-4">
+            <div class="form-group">
+                <table class="table table-bordered">
+                    <tr>
+                        <td><h3>Full Name:</h3></td>
+                        <td><h3>{{ full_name }}</h3></td>
+                    </tr>
+                    <tr>
+                        <td><h3>E-Mail:</h3></td>
+                        <td><h3>{{ e-mail }}</h3></td>
+                    </tr>
+                    <tr>
+                        <td><h3>Created On:</h3></td>
+                        <td><h3>{{ created_on }}</h3></td>
+                    </tr>
+                    <tr>
+                        <td><h3>Last Updated:</h3></td>
+                        <td><h3>{{ last_updated }}</h3></td>
+                    </tr>
+                </table>
+                <a href="/users/{{ user_id }}/edit" class="btn btn-primary btn-lg mt-3">Edit</a>
+                <a href="/users/{{ user_id }}/delete" class="btn btn-primary btn-lg mt-3">Delete</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+<div class="form-group">
+    <form action="/users/{{ user_id }}/update" method="post">
+        <label for="first_name">First Name:</label>
+        <input type="text" class="form-control" name="first_name" placeholder="{{ f_name }}" value="{{ f_name }}">
+        <label for="last_name">Last Name:</label>
+        <input type="text" class="form-control" name="last_name" placeholder="{{ l_name }}" value="{{ l_name }}">
+        <label for="email">Email Address:</label>
+        <input type="email" class="form-control" name="email" placeholder="{{ em }}" value="{{ em }}">
+        <input class="btn btn-primary btn-lg mt-3" type="submit" value="Update" />
+        <a href="/users/{{ user_id }}/user" class="btn btn-primary btn-lg mt-3">Show User</a>
+    </form>
+</div>
+{% endblock %}
